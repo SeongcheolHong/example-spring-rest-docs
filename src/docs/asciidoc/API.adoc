@@ -1,0 +1,31 @@
+= Car API
+:author: Raegon Kim
+:email: raegon@gmail.com
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:operation-http-request-title: Request structure
+:operation-http-response-title: Example response
+
+// https://raw.githubusercontent.com/eugenp/tutorials/master/spring-5/src/docs/asciidocs/api-guide.adoc
+
+== Car
+
+=== Create Car
+
+operation::create-car[snippets='http-request,request-fields,response-fields,http-response']
+
+=== Get Car
+
+operation::get-car[snippets='http-request,path-parameters,response-fields,http-response']
+
+=== Update Car
+
+operation::update-car[snippets='http-request,path-parameters,request-fields,response-fields,http-response']
+
+=== Delete Car
+
+operation::delete-car[snippets='http-request,path-parameters,http-response']
